@@ -1,0 +1,181 @@
+/* Variables de diseño */
+:root {
+    --color-primario: #1A73E8;
+    --color-secundario: #FFC107;
+    --color-texto: #2C2C2C;
+    --color-fondo: #F9F9F9;
+    --color-oscuro: #212121;
+    --color-borde: #CCCCCC;
+    --fuente-principal: 'Roboto', Arial, sans-serif;
+  }
+  
+  /* General */
+  body {
+    font-family: var(--fuente-principal);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--color-texto);
+    background: url('https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbWFjaW9ufGVufDB8fDB8fHww') no-repeat center center fixed;
+    background-size: cover; /* Hace que el fondo se ajuste completamente */
+  }
+  
+  
+  /* Header */
+  header {
+    background: var(--color-primario);
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: var(--color-secundario);
+  }
+  
+  /* Secciones */
+  section {
+    background: #e0e3e5;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #inicio {
+    background: #cb9272;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  
+  h1{
+    font-size: 60px;
+  }
+  
+  h2{
+    font-size: 45px;
+  }
+  
+  h3{
+    font-size: 30px;
+  }
+  
+  p{
+    font-size: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: var(--color-oscuro);
+  }
+  
+  #proyectos a {
+    color: var(--color-primario);
+    text-decoration: none;
+  }
+  
+  #proyectos a:hover {
+    text-decoration: underline;
+    color: var(--color-secundario);
+  }
+  
+  /* Formulario */
+  #contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contacto input,
+  #contacto textarea,
+  #contacto button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid var(--color-borde);
+    border-radius: 4px;
+  }
+  
+  #contacto input:focus,
+  #contacto textarea:focus {
+    border-color: var(--color-primario);
+    outline: none;
+  }
+  
+  #contacto button {
+    background: var(--color-primario);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #contacto button:hover {
+    background: var(--color-secundario);
+    color: var(--color-oscuro);
+  }
+  
+  /* Footer */
+  footer {
+    background: var(--color-oscuro);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  img{
+    max-height: 500px;
+    width: auto;
+  }
+  
+  /* Tabla de Habilidades */
+  .tabla-habilidades {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabla-habilidades th,
+  .tabla-habilidades td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid var(--color-borde);
+  }
+  
+  .tabla-habilidades th {
+    background-color: var(--color-primario);
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .tabla-habilidades td {
+    font-size: 1rem;
+    color: var(--color-oscuro);
+  }
+  
+  .tabla-habilidades tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabla-habilidades tr:hover {
+    background-color: #ddd;
+  }
+  
+  .tabla-habilidades td strong {
+    color: var(--color-primario);
+  }

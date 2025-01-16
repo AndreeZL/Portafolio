@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Profesional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h1>¡Hola! Soy Lenning Andree Zacarias Lopez</h1>
+      <p>Desarrollador Web especializado en la creación de sitios modernos y funcionales.</p>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy un desarrollador web apasionado por la creación de experiencias digitales intuitivas y funcionales. Mi objetivo es combinar diseño atractivo y tecnología moderna para construir sitios web que no solo sean visualmente impactantes, sino también altamente funcionales. Tengo experiencia en tecnologías como HTML, CSS, JavaScript, y frameworks como React y Node.js.<br>
+        Me destaco por mi enfoque en la resolución de problemas, la optimización del rendimiento y la creación de soluciones personalizadas que se adapten a las necesidades del cliente. Ya sea trabajando en un equipo o de forma independiente, siempre busco mantenerme actualizado con las últimas tendencias tecnológicas para ofrecer resultados innovadores y de calidad.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="proyecto">
+        <h3>Proyecto Gestor de Tiempo</h3>
+        <p>Este proyecto de software es un Gestor de Tiempo que permite a los usuarios configurar y utilizar varios tipos de temporizadores, incluyendo temporizador estándar, alarma y temporizador Pomodoro. A continuación se detallan los requisitos funcionales, técnicos y las pruebas implementadas</p>
+        <a href="https://github.com/AndreeZL/ProyectoGestorDeTiempo" target="_blank" aria-label="Ver demo del Proyecto 1">Ver en GitHub</a>
+      </div>
+      <div class="proyecto">
+        <h3>Proyecto Ecommerce NatureMarket</h3>
+        <p>Este proyecto es una aplicación móvil diseñada para conectar a consumidores conscientes con productos naturales y ecológicos, ofreciendo una experiencia de compra intuitiva y eficiente. Este proyecto está enfocado en el comercio sostenible y en facilitar el acceso a una amplia variedad de productos saludables directamente desde dispositivos móviles.</p>
+        <a href="https://github.com/AndreeZL/My_Application_ecommerce_NATUREMARKET" target="_blank" aria-label="Ver demo del Proyecto 2">Ver en GitHub</a><br>
+        <img src="/img/gestor.webp" alt="Captura">
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+  
+      <table class="tabla-habilidades">
+          <thead>
+              <tr>
+                  <th>Categoría</th>
+                  <th>Habilidades</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>Lenguajes</strong></td>
+                  <td>HTML, CSS, JavaScript, Python, PHP</td>
+              </tr>
+              <tr>
+                  <td><strong>Frameworks</strong></td>
+                  <td>React, Node.js, Express.js, Bootstrap</td>
+              </tr>
+              <tr>
+                  <td><strong>Bases de datos</strong></td>
+                  <td>MySQL, MongoDB, PostgreSQL</td>
+              </tr>
+              <tr>
+                  <td><strong>Herramientas</strong></td>
+                  <td>Git/GitHub, VS Code, Webpack</td>
+              </tr>
+              <tr>
+                  <td><strong>Metodologías</strong></td>
+                  <td>Agile, Scrum</td>
+              </tr>
+              <tr>
+                  <td><strong>Otros</strong></td>
+                  <td>API REST, SEO básico, UI/UX Design</td>
+              </tr>
+          </tbody>
+      </table>
+  </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/tu-email" method="POST" aria-label="Formulario de contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Lenning Andree Zacarias Lopez. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
